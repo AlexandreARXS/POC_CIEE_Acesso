@@ -54,9 +54,14 @@
   <ItemGroup>
     <Compile Include="Driver\IStefaniniWebDriver.cs" />
     <Compile Include="Pages\CCEE\CCEE_ConteudoExclusivoPage.cs" />
+    <Compile Include="Pages\CCEE\CCEE_Filtro.cs" />
     <Compile Include="Pages\CCEE\CCEE_HomePage.cs" />
+    <Compile Include="Pages\CCEE\CCEE_Leiloes.cs" />
+    <Compile Include="Pages\CCEE\CCEE_OQueFazemos.cs" />
+    <Compile Include="Pages\CCEE\CCEE_ProximaPagina.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CCEE_Menu.cs" />
     <Compile Include="Services\CCEE_Service.cs" />
     <Compile Include="Driver\StefaniniWebDriver.cs" />
   </ItemGroup>
