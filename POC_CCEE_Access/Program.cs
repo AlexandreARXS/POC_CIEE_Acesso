@@ -7,10 +7,13 @@ namespace POC_CCEE_Access
     {
         static void Main(string[] args)
         {
-            var servico = new CCEE_Service(new StefaniniWebDriver());
-            servico.AcessarConteudoRestrito();
+            //var servico = new CCEE_Service(new StefaniniWebDriver());
+            //servico.AcessarConteudoRestrito();
+
+            var menu = new CCEE_Menu(new StefaniniWebDriver());
+            menu.AcessarOQueFazemos();
         }
     }
 
- 
+
 }

@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Driver\IStefaniniWebDriver.cs" />
     <Compile Include="Pages\CCEE\CCEE_ConteudoExclusivoPage.cs" />
+    <Compile Include="Pages\CCEE\CCEE_Downloads.cs" />
     <Compile Include="Pages\CCEE\CCEE_Filtro.cs" />
     <Compile Include="Pages\CCEE\CCEE_HomePage.cs" />
     <Compile Include="Pages\CCEE\CCEE_Leiloes.cs" />

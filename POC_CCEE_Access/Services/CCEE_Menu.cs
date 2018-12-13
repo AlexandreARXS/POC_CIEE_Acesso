@@ -21,6 +21,7 @@ namespace POC_CCEE_Access.Services
             var HomePage = new CCEE_HomePage(driver);
             var valor = HomePage.IrPara();
             valor.ClicarFiltro();
+            valor.PegarListaDownload();
         }
     }
 }

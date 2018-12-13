@@ -10,3 +10,7 @@ C:\Users\ptandrade\source\repos\POC_CCEE_Access\POC_CCEE_Access\obj\Debug\POC_CC
 C:\Users\ptandrade\source\repos\POC_CCEE_Access\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.csproj.CopyComplete
 C:\Users\ptandrade\source\repos\POC_CCEE_Access\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.exe
 C:\Users\ptandrade\source\repos\POC_CCEE_Access\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.pdb
+C:\Users\AAsilva\Downloads\POC_CIEE_Acesso-master\POC_CIEE_Acesso-master\POC_CIEE_Acesso\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.csprojAssemblyReference.cache
+C:\Users\AAsilva\Downloads\POC_CIEE_Acesso-master\POC_CIEE_Acesso-master\POC_CIEE_Acesso\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.csproj.CoreCompileInputs.cache
+C:\Users\AAsilva\Downloads\POC_CIEE_Acesso-master\POC_CIEE_Acesso-master\POC_CIEE_Acesso\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.exe
+C:\Users\AAsilva\Downloads\POC_CIEE_Acesso-master\POC_CIEE_Acesso-master\POC_CIEE_Acesso\POC_CCEE_Access\obj\Debug\POC_CCEE_Access.pdb

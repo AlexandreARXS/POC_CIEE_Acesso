@@ -17,8 +17,8 @@ namespace POC_CCEE_Access.Services
             var HomePage = new CCEE_HomePage(driver);
             HomePage.IrPara()
                     .ClicarNaAreaConteudoExclusivo()
-                    .InformarLogin("teste")
-                    .InformarSenha("testeSenha")
+                    .InformarLogin("rodridias")
+                    .InformarSenha("rodridias")
                     .ClicarEmEntrar();
         }
     }

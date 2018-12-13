@@ -41,6 +41,12 @@ namespace POC_CCEE_Access.Pages.CCEE
             selectElement.SelectByValue("Custo Variável Unitário Revisado");
             return new CCEE_Filtro(driver);
         }
-
+        public CCEE_Downloads PegarListaDownload()
+        {
+            var button_Locator = By.ClassName("link-tabela-comunicado");
+            driver.Wait.Until(ExpectedConditions.ElementIsVisible(button_Locator));
+            driver.FindElement(button_Locator).Click();
+            return new CCEE_Downloads(driver);
+        }
     }
 }
