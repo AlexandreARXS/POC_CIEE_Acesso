@@ -19,14 +19,5 @@ namespace POC_CCEE_Access.Pages.CCEE
         {
             this.driver = _drive;
         }
-
-        public CCEE_Filtro ClicarFiltro()
-        {
-            var filtro = driver.FindElement(By.Id("evento_rrv_selecionado"));
-            var selectElement = new SelectElement(filtro);
-            selectElement.SelectByValue("Custo Variável Unitário");
-            selectElement.SelectByValue("Custo Variável Unitário Revisado");
-            return this;
-        }
     }
 }

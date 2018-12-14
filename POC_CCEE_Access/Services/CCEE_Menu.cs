@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using POC_CCEE_Access.Driver;
@@ -21,7 +23,17 @@ namespace POC_CCEE_Access.Services
             var HomePage = new CCEE_HomePage(driver);
             var valor = HomePage.IrPara();
             valor.ClicarFiltro();
-            valor.PegarListaDownload();
+            var coisa = valor.PegarListaDownload();
+            string caminho = @"C:\Users\AAsilva\Downloads\Arquivos ENEVA";
+            foreach(var item in coisa)
+            {
+                var link = item.GetAttribute("href");
+                var nomeArquivo = item.Text;
+
+                var destino = Path.Combine(caminho, nomeArquivo.Replace("/", "-"));
+                WebClient client = new WebClient();
+                client.DownloadFile(link, destino + ".pdf");
+            }
         }
     }
 }

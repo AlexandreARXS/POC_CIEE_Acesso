@@ -1,6 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using POC_CCEE_Access.Driver;
+using System.Collections.Generic;
 
 namespace POC_CCEE_Access.Pages.CCEE
 {
@@ -41,12 +42,12 @@ namespace POC_CCEE_Access.Pages.CCEE
             selectElement.SelectByValue("Custo Variável Unitário Revisado");
             return new CCEE_Filtro(driver);
         }
-        public CCEE_Downloads PegarListaDownload()
+        public IReadOnlyCollection<IWebElement> PegarListaDownload()
         {
             var button_Locator = By.ClassName("link-tabela-comunicado");
             driver.Wait.Until(ExpectedConditions.ElementIsVisible(button_Locator));
-            driver.FindElement(button_Locator).Click();
-            return new CCEE_Downloads(driver);
+            var lista = driver.FindElements(button_Locator);
+            return lista;
         }
     }
 }

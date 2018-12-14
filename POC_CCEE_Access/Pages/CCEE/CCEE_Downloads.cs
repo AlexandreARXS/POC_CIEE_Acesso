@@ -17,12 +17,5 @@ namespace POC_CCEE_Access.Pages.CCEE
         {
             this.driver = _driver;
         }
-        public IReadOnlyCollection<IWebElement> PegarListaDownload()
-        {
-            var button_Locator = By.ClassName("link-tabela-comunicado");
-            driver.Wait.Until(ExpectedConditions.ElementIsVisible(button_Locator));
-            var lista = driver.FindElements(button_Locator);
-            return lista;
-        }
     }
 }
